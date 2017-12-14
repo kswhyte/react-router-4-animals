@@ -8,7 +8,7 @@ import TheWild from './TheWild.js'
 class Main extends Component {
   render() {
     return (
-      <div>
+      <div className="main-wrapper">
         <h1 className="App-intro">A Demo for ReactRouter 4</h1>
         <h2>ROUTES:</h2>
         <Switch>

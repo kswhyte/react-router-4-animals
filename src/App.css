@@ -18,6 +18,10 @@
   font-size: 1.5em;
 }
 
+.main-wrapper {
+  margin: 40px;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -25,6 +29,10 @@
 a {
   font-size: 20px;
   margin: 20px;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
