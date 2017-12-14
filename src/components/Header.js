@@ -10,7 +10,7 @@ class Header extends Component {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">REACT ROUTER 4</h1>
         <nav>
-          <ul>
+          <ul className="route-link-container">
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/thewild'>TheWild</Link></li>

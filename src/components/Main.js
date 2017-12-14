@@ -9,9 +9,8 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <h1 className="App-intro">
-          ROUTES:
-        </h1>
+        <h1 className="App-intro">A Demo for ReactRouter 4</h1>
+        <h2>ROUTES:</h2>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />

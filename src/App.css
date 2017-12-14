@@ -24,10 +24,22 @@
 
 a {
   font-size: 20px;
+  margin: 20px;
 }
 
 li {
   list-style: none;
+}
+
+.route-link-container {
+  margin: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.animal-info {
+  color: royalblue;
 }
 
 @keyframes App-logo-spin {

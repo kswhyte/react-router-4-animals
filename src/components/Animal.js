@@ -5,6 +5,7 @@ import AnimalAPI from '../AnimalAPI';
 
 class Animal extends Component {
   render() {
+    console.log(this.props.match.params.name)
     const animal = AnimalAPI.get(
       parseInt(this.props.match.params.number, 10)
     )
@@ -13,8 +14,8 @@ class Animal extends Component {
     }
     return (
       <div>
-        <h1>{animal.name} (#{animal.number})</h1>
-        <h2>{animal.class}</h2>
+        <h1 className="animal-info">{animal.name} (#{animal.number})</h1>
+        <h2 className="animal-info">{animal.class}</h2>
         <Link to='/thewild'>Back</Link>
       </div>
     );

@@ -8,7 +8,8 @@ class TheWild extends Component {
   render() {
     return (
       <div className="App-TheWild">
-        <h2>This is the THEWILD page</h2>
+        <h1>This is the THEWILD page</h1>
+        <h2>SUBROUTES:</h2>
         <Switch>
           <Route exact path='/thewild' component={TheWildList}/>
           <Route path='/thewild/:number' component={Animal}/>
